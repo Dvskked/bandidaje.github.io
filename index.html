@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora Bandidaje</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <header>
+                <div class="imagen1-header">
+                    <img src="assets/img/bandido2.png" alt="bandida1" class="bandida-header">
+                </div>
+                <div class="titulo-header">
+                    <h1>CALCULADORA DE BANDIDAJE</h1>
+                </div>
+                <div class="imagen2-header">
+                    <img src="assets/img/bandida2.jfif" alt="bandida2" class="bandida-header">
+                </div>
+            </header>
+        </div>
+
+        <div class="contenido">
+            <div class="margen">
+                <div class="registro" id="registro">
+                    <div class="titulo-registro">
+                        <h1>WELCOME</h1>
+                    </div>
+                    <div class="mensaje-registro">
+                        <span>Calculadora de <strong>Bandidaje</strong> es un proyecto terminado y entretenido creado 
+                            por <strong>Andres Forero</strong>, amante del desarrollo web y con 
+                            conocimientos en html, estilos y funcionalidades con JavaScript... Este proyecto consta
+                            de 2 calculadoras: <strong class="tbandido">Calculadora de bandidos</strong> y 
+                            <strong class="tbandida">Calculadora de bandidas</strong>. La funcion de estas es
+                            calcular el porcentaje (%) de una persona, sea hombre o mujer, de acuerdo a sus
+                            apariencias fisicas recolectadas de encuestas globales.</span>
+                        <br><br>
+                        <span>Acontinuacion, selecciona el tipo de calculadora para iniciar.</span>
+                        <br><br>
+                    </div>
+
+                    <div class="opciones">
+                        <div class="bandidos">
+                            <button id="boton-bandido" onclick="calculadoraBandidos()">BANDIDOS</button>
+                        </div>
+                        <div class="bandidas">
+                            <button id="boton-bandida" onclick="calculadoraBandidas()">BANDIDAS</button>
+                        </div>
+                        <br><br><br><br>
+                    </div>
+
+                    <div class="creador">
+                        <span class="mig"><strong>Creador: </strong><a href="https://www.instagram.com/andrees017/" class="insta">❥ @andrees017</a></span>
+                        <button onclick="documentacion()">Ver documentacion</button>
+                        <br><br><br>
+                    </div>
+                    
+                    
+                    <div class="documentacion">    
+                        <div class="titulo-documentacion">
+                            <h2>DOCUMENTACION</h2>
+                        </div>
+                        <div class="contenido-documetacion">
+                            <div class="4-1">
+                                <div class="titulo-4-1">
+                                    <h3>4.1 - Alpha1 Calculadora bandidas</h3>
+                                </div>
+                                <div class="contenido-4-1">
+                                    <ul>
+                                        <li>Creacion Calculadora de bandidas</li>
+                                        <li>Diseño basico + respective</li>
+                                        <li>Preguntas basicas</li>
+                                        <li>Sistema de puntaje</li>
+                                    </ul>
+                                </div>
+                            </div><br><br>
+                            <div class="4-2">
+                                <div class="titulo-4-2">
+                                    <h3>4.2 - Alpha2 </h3>
+                                </div>
+                                <div class="contenido-4-3">
+                                    <ul>
+                                        <li>Correccion de preguntas</li>
+                                        <li>Implementacion de <strong>Nombre de usuario</strong></li>
+                                        <li>Respuestas finales personalizadas</li>
+                                        <li>Rangos de bandidas limitados</li>
+                                    </ul>
+                                </div>
+                            </div><br><br>
+                            <div class="4-3">
+                                <div class="titulo-4-3">
+                                    <h3>4.3 - Alpha3 </h3>
+                                </div>
+                                <div class="contenido-4-3">
+                                    <ul>
+                                        <li>Implementacion subida multimedia de la bandida</li>
+                                        <li>Correccion de respuestas finales personalizadas</li>
+                                        <li>+ Variedad de rangos de bandidas</li>
+                                    </ul>
+                                </div>
+                            </div><br><br>
+                            <div class="4-4">
+                                <div class="titulo-4-4">
+                                    <h3>4.4 - Alpha4 </h3>
+                                </div>
+                                <div class="contenido-4-4">
+                                    <ul>
+                                        <li>Mejor diseño con CSS (Neon)</li>
+                                        <li>Documentacion actualizada</li>
+                                        <li>Correccion de sistema de puntaje</li>
+                                        <li>Implementacion de derechos de autos (Redes)</li>
+                                    </ul>
+                                </div>
+                            </div><br><br>
+                            <div class="4-5">
+                                <div class="titulo-4-5">
+                                    <h3>4.5 - Alpha5 </h3>
+                                </div>
+                                <div class="contenido-4-5">
+                                    <ul>
+                                        <li>Sistema de interfaz (En el que estas)</li>
+                                        <li>Redirecciones a las respectivas calculadoras</li>
+                                        <li>Borrador de Calculadora de bandidos</li>
+                                    </ul>
+                                </div>
+                            </div><br><br>
+                            <div class="4-6">
+                                <div class="titulo-4-6">
+                                    <h3>4.6 - Alpha6 </h3>
+                                </div>
+                                <div class="contenido-4-6">
+                                    <ul>
+                                        <li>Creacion Calculadora de Bandidos</li>
+                                        <li>Coreccion de errores calculadora bandidas</li>
+                                    </ul>
+                                </div>
+                            </div><br><br>
+                            <div class="4-7">
+                                <div class="titulo-4-7">
+                                    <h3>4.7 - Beta1 </h3>
+                                </div>
+                                <div class="contenido-4-7">
+                                    <ul>
+                                        <li>Subida a Github</li>
+                                        <li>Sistema de testing y busqueda de errores</li>
+                                    </ul>
+                                </div>
+                            </div><br><br>
+                            <div class="4-7-1">
+                                <div class="titulo-4-7">
+                                    <h3>4.7.1 - Beta2 </h3>
+                                </div>
+                                <div class="contenido-4-7-1">
+                                    <ul>
+                                        <li>Mejor diseño calculadora de bandidos</li>
+                                        <li>Sistema oculto en JavaScript</li>
+                                    </ul>
+                                </div>
+                            </div><br><br>
+                            <div class="definitive">
+                                <div class="titulo-definitive">
+                                    <h3>Definitive</h3>
+                                </div>
+                                <div class="contenido-definitive">
+                                    <ul>
+                                        <li>Proyecto subido</li>
+                                        <li>Proyecto sin errores</li>
+                                        <li>Sistema listo para usar</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        
+
+
+
+        
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
