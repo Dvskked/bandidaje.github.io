@@ -8,6 +8,12 @@ function calculadoraBandidas(){
     window.open("https://dvskked.github.io/bandida.github.io/");
 }
 
-function documentacion(){
-    docu.style.display = "block";
+function documentacion() {
+    const doc = document.getElementById("documentation");
+
+    if (doc.style.display === "block") {
+        doc.style.display = "none";
+    } else {
+        doc.style.display = "block";
+    }
 }
